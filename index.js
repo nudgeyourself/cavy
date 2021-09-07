@@ -4,12 +4,10 @@ import TestHookStore from './src/TestHookStore';
 import useCavy from './src/useCavy';
 import wrap from './src/wrap';
 
-const Cavy = {
+export {
   hook,
   Tester,
   TestHookStore,
   useCavy,
   wrap
 };
-
-module.exports = Cavy;
